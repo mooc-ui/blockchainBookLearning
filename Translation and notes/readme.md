@@ -1,21 +1,18 @@
 
 
-### …or create a new repository on the command line
+
+
+提交代码到github
 
 ```bash
-echo "# blockchainBookLearning" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:mooc-ui/blockchainBookLearning.git
-git push -u origin main
+git push git@github.com:mooc-ui/blockchainBookLearning.git
 ```
 
-### …or push an existing repository from the command line
+
+
+同步github上最新的代码
 
 ```bash
-git remote add origin git@github.com:mooc-ui/blockchainBookLearning.git
-git branch -M main
-git push -u origin main
+git pull --rebase git@github.com:mooc-ui/blockchainBookLearning.git
 ```
+
